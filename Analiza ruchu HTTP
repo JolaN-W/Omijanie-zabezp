@@ -1,15 +1,15 @@
 #ZADANIE 3 - ANALIZA RUCHU HTTP
 
-Rozpoczęcie monitorowania ruchu sieciowego (narzędziem Wireshark)
+#Rozpoczęcie monitorowania ruchu sieciowego (narzędziem Wireshark)
  
-Nawiązanie połączenia z http://testphp.vulnweb.com/login.php
+#Nawiązanie połączenia z http://testphp.vulnweb.com/login.php
 
  
-Próba logowania   
-login: Rekin
-hasło: rybka 
+#Próba logowania   
+#login: Rekin
+#hasło: rybka 
 
-Odszukanie w zapisanym ruchu swoich danych logowania
+#Odszukanie w zapisanym ruchu swoich danych logowania
 
 
-Powtórzenie logowania np. do Facebooka
+#Powtórzenie logowania np. do Facebooka
