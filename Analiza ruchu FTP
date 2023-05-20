@@ -4,6 +4,7 @@
 
 #Nawiązanie połączenia pomiędzy Kalim a SDA po FTP
 
+#Edycja vsftpd.conf
 ssh root@192.168.50.7
 root@192.168.50.7's password: 666
 root@vm-sda:~# cd /etc
