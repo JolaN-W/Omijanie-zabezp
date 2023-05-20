@@ -1,0 +1,39 @@
+#ZADANIE 4 - ANALIZA RUCHU SSH
+
+#Monitorowanie ruchu sieciowego narzędziem Wireshark
+
+#Nawiązanie połączenia pomiędzy Kalim a SDA po SSH 
+nmap -sn 192.168.50.0/24
+ssh uranus@192.168.50.7
+
+
+#Stworzenie plików sekret1.txt i sekret2.txt z tajnymi hasłami
+sudo su
+touch sekret1.txt    #utworzenie pliku
+nano sekret1.txt     #otwarcie pliku
+#hasło Rekin
+cat sekret1.txt      #sprawdzenie, czy pliki się zapisały
+#Rekin
+
+
+touch sekret2.txt    
+nano sekret2.txt    
+#hasło Rybka
+cat sekret2.txt     
+#Rybka
+
+#Edytowanie konfiguracji vsFTPd, żeby umożliwić wgrywanie plików po FTP
+
+sudo nano /etc/vsftpd.conf
+#write_enable=YES
+#anonymous_enable=YES
+systemctl restart vsftpd
+exit
+
+
+#Zakończenie połączenia po SSH
+exit
+
+#Szukanie w zapisanym ruchu sieciowym zawartość plików sekret1.txt i sekret2.txt
+
+
