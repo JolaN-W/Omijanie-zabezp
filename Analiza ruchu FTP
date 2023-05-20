@@ -1,0 +1,26 @@
+#ZADANIE 5 - ANALIZA RUCHU FTP Środowisko: Kali Linux, maszyna SDA z projektu 1 
+
+#Rozpoczęcie monitorowania ruchu sieciowego narzędziem Wireshark
+
+#Nawiązanie połączenia pomiędzy Kalim a SDA po FTP
+
+ssh root@192.168.50.7
+root@192.168.50.7's password: 666
+root@vm-sda:~# cd /etc
+root@vm-sda:/etc# vim vsftpd.conf
+
+#Przesyłanie z Kaliego do SDA pliku tekstowego ryby2.txt
+ftp 192.168.50.7
+ftp> cd /home/uranus/
+ftp> put ryby2.txt
+
+#ściągnięcie z SDA do Kaliego plików sekret1.txt i sekret2.txt
+ftp 192.168.50.7
+ftp> cd /home/uranus/
+ftp> get sekret1.txt
+
+
+#Zakończenie połączenia
+exit
+
+#Odszukanie w zapisanym ruchu sieciowym zawartości plików
