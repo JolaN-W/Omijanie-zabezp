@@ -1,0 +1,1 @@
+# Omijanie-zabezp
