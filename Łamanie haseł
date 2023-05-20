@@ -3,46 +3,46 @@
 
 1.
 hash-identifier 81dc9bdb52d04dc20036dbd8313ed05
-Possible Hashs:
-[+] MD5
-[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+#Possible Hashs:
+#[+] MD5
+#[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
 echo "81dc9bdb52d04dc20036dbd8313ed055" > hash.txt                                                                                                                                                                                                                                 
 hashcat -a 3 -m 0 hash.txt
-hasło: 1234
+#hasło: 1234
 
 
 2.
 hash-identifier d8826bbd80b4233b7522d1c538aeaf66c64e259a
-Possibe Hashs:
-[+] SHA-1
-[+] MySQL5 - SHA-1 (SHA-1 ($pass))
+#Possibe Hashs:
+#[+] SHA-1
+#[+] MySQL5 - SHA-1 (SHA-1 ($pass))
 echo "d8826bbd80b4233b7522d1c538aeaf66c64e259a" > hashone.txt 
 hashcat -a 3 -m 100 hashone.txt 
-HASŁO: 4121
+#HASŁO: 4121
 
 3.
 hash-identifier b021d0862bc76b0995927902ec697d97b5080341a53cd90b780f50fd5886f4160bbb9d4a573b76c23004c9b3a44ac95cfde45399e3357d1f651b556dfbd0d58f
-Possible Hashs:
-[+] SHA-512
-[+] Whirlpool
-Least Possible Hashs:
-[+] SHA-512(HMAC)
-[+] Whirlpool(HMAC)
+#Possible Hashs:
+#[+] SHA-512
+#[+] Whirlpool
+#Least Possible Hashs:
+#[+] SHA-512(HMAC)
+#[+] Whirlpool(HMAC)
 echo"b021d0862bc76b0995927902ec697d97b5080341a53cd90b780f50fd5886f4160bbb9d4a573b76c23004c9b3a44ac95cfde45399e3357d1f651b556dfbd0d58f" > hashtwo.txt
 hashcat -a 3 -m 1700 hashtwo.txt 
-HASŁO: 6969
+#HASŁO: 6969
 
 4. 
 hash-identifier 31bca02094eb78126a517b206a88c73cfa9ec6f704c7030d18212cace820f025f00bf0ea68dbf3f3a5436ca63b53bf7bf80ad8d5de7d8359d0b7fed9dbc3ab99
-Possible Hashs:
-[+] SHA-512
-[+] Whirlpool
-Least Possible Hashs:
-[+] SHA-512(HMAC)
-[+] Whirlpool(HMAC)
+#Possible Hashs:
+#[+] SHA-512
+#[+] Whirlpool
+#Least Possible Hashs:
+#[+] SHA-512(HMAC)
+#[+] Whirlpool(HMAC)
 echo "31bca02094eb78126a517b206a88c73cfa9ec6f704c7030d18212cace820f025f00bf0ea68dbf3f3a5436ca63b53bf7bf80ad8d5de7d8359d0b7fed9dbc3ab99" > hashthree.txt
 hashcat -a 3 -m 1700 hashthree.txt
-HASŁO: 0
+#HASŁO: 0
 
 
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -51,40 +51,39 @@ HASŁO: 0
 
 1.
 hash-identifier 9e66d646cfb6c84d06a42ee1975ffaae90352bd016da18f51721e2042d9067dcb120accc574105b43139b6c9c887dda8202eff20cc4b98bad7b3be1e471b3aa5
-Possible Hashs:
-[+] SHA-512
-[+] Whirlpool
-Least Possible Hashs:
-[+] SHA-512(HMAC)
-[+] Whirlpool(HMAC)
+#Possible Hashs:
+#[+] SHA-512
+#[+] Whirlpool
+#Least Possible Hashs:
+#[+] SHA-512(HMAC)
+#[+] Whirlpool(HMAC)
 echo "9e66d646cfb6c84d06a42ee1975ffaae90352bd016da18f51721e2042d9067dcb120accc574105b43139b6c9c887dda8202eff20cc4b98bad7b3be1e471b3aa5" > hashfour.txt    
 hashcat -a 3 -m 1700 hashfour.txt
-HASŁO: sda
+#HASŁO: sda
 
 2.
 hash-identifier 8a04bd2d079ee38f1af784317c4e2442625518780ccff3213feb2e207d2be42ca0760fd8476184a004b71bcb5841db5cd0a546b9b8870f1cafee57991077c4a9
-Possible Hashs:
-[+] SHA-512
-[+] Whirlpool
-Least Possible Hashs:
-[+] SHA-512(HMAC)
-[+] Whirlpool(HMAC)
+#Possible Hashs:
+#[+] SHA-512
+#[+] Whirlpool
+#Least Possible Hashs:
+#[+] SHA-512(HMAC)
+#[+] Whirlpool(HMAC)
 echo "8a04bd2d079ee38f1af784317c4e2442625518780ccff3213feb2e207d2be42ca0760fd8476184a004b71bcb5841db5cd0a546b9b8870f1cafee57991077c4a9" > hashfour.txt    
 hashcat -a 3 -m 1700 hashfour.txt
-HASŁO: Asia
+#HASŁO: Asia
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
 #ZADANIE 1 - ŁAMANIE HASEŁ (MET. BRUTE-FORCE) 3/3 Hasło składa się z dokładnie z 6 znaków alfanumerycznych
 
-ZNAKI ALFANUMERYCZNE
 hash-identifier 44d9886c0a57ddbfdb31aa936bd498bf2ab70f741ee47047851e768db953fc4e43f92be953e205a3d1b3ab752ed90379444b651b582b0bc209a739a624e109da
-Possible Hashs:
-[+] SHA-512
-[+] Whirlpool
-Least Possible Hashs:
-[+] SHA-512(HMAC)
-[+] Whirlpool(HMAC)
+#Possible Hashs:
+#[+] SHA-512
+#[+] Whirlpool
+#Least Possible Hashs:
+#[+] SHA-512(HMAC)
+#[+] Whirlpool(HMAC)
 
 echo "44d9886c0a57ddbfdb31aa936bd498bf2ab70f741ee47047851e768db953fc4e43f92be953e205a3d1b3ab752ed90379444b651b582b0bc209a739a624e109da" > hashalfa.txt
 hashcat -m 1700 -a 3 hashalfa.txt ?l?l?l?l?l?l
@@ -97,49 +96,49 @@ hashcat -m 1700 -a 3 hashalfa.txt ?l?l?l?l?l?l
 
 1. 
 hash-identifier 9fd8301ac24fb88e65d9d7cd1dd1b1ec
-Possible Hashs:
-[+] MD5
-[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+#Possible Hashs:
+#[+] MD5
+#[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
 echo "9fd8301ac24fb88e65d9d7cd1dd1b1ec " > hashfour.txt    
 hashcat -a 3 -m 0 hashfour.txt /home/kali/rockyou-50.txt
-HASŁO: butterfly
+#HASŁO: butterfly
 
 2.
 hash-identifier 7f9a6871b86f40c330132c4fc42cda59
-Possible Hashs:
-[+] MD5
-[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+#Possible Hashs:
+#[+] MD5
+#[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
 echo "7f9a6871b86f40c330132c4fc42cda59" > hashfive.txt    
 hashcat -a 3 -m 0 hashfive.txt /home/kali/rockyou-50.txt
-HASŁO: tinkerbell
+#HASŁO: tinkerbell
 
 3.
 hash-identifier 6104df369888589d6dbea304b59a32d4
-Possible Hashs:
-[+] MD5
-[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+#Possible Hashs:
+#[+] MD5
+#[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
 echo "6104df369888589d6dbea304b59a32d4" > hashsix.txt    
 hashcat -a 3 -m 0 hashsix.txt /home/kali/rockyou-50.txt
-HASŁO: blink182
+#HASŁO: blink182
 
 
 4.
 hash-identifier 6104df369888589d6dbea304b59a32d4
-Possible Hashs:
-[+] MD5
-[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+#Possible Hashs:
+#[+] MD5
+#[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
 echo "276f8db0b86edaa7fc805516c852c889" > hashseven.txt    
 hashcat -a 3 -m 0 hashseven.txt /home/kali/rockyou-50.txt
-HASŁO: baseball
+#HASŁO: baseball
 
 5.
 hash-identifier 04dac8afe0ca501587bad66f6b5ce5ad
-Possible Hashs:
-[+] MD5
-[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
+#Possible Hashs:
+#[+] MD5
+#[+] Domain Cached Credentials - MD4(MD4(($pass)).(strtolower($username)))
 echo "04dac8afe0ca501587bad66f6b5ce5ad" > hasheight.txt    
 hashcat -a 3 -m 0 hasheight.txt /home/kali/rockyou-50.txt
-HASŁO: hellokitty
+#HASŁO: hellokitty
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -151,17 +150,17 @@ hash-identifier7ab6888935567386376037e042524d27fc8a24ef87b1944449f6a0179991dbdbc
 echo "7ab6888935567386376037e042524d27fc8a24ef87b1944449f6a0179991dbdbc481e98db4e70fdf0e04d1a69d8e7101d881379cf1966c992100389da7f3e9a" > hashnine.txt    
 hashcat -a 3 -m 1700 hashnine.txt /home/kali/rockyou-50.txt
 
-HASŁO: spiderman
+#HASŁO: spiderman
 
 2.
 hash-identifier 470c62e301c771f12d91a242efbd41c5e467cba7419c664f784dbc8a20820abaf6ed43e09b0cda994824f14425db3e6d525a7aafa5d093a6a5f6bf7e3ec25dfa
-Possible Hashs:
-[+] SHA-512
-[+] Whirlpool
-Least Possible Hashs:
-[+] SHA-512(HMAC)
-[+] Whirlpool(HMAC)
+#Possible Hashs:
+#[+] SHA-512
+#[+] Whirlpool
+#Least Possible Hashs:
+#[+] SHA-512(HMAC)
+#[+] Whirlpool(HMAC)
 echo "470c62e301c771f12d91a242efbd41c5e467cba7419c664f784dbc8a20820abaf6ed43e09b0cda994824f14425db3e6d525a7aafa5d093a6a5f6bf7e3ec25dfa" > hashten.txt    
 hashcat -a 3 -m 1700 hashten.txt /home/kali/rockyou-50.txt
-HASŁO: rockstar
+#HASŁO: rockstar
 
